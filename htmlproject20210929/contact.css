@@ -1,8 +1,46 @@
-@body{
-	background-color: ;
+body{
+	background-color: rgb(34, 32, 32);
+	color: white;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
 }
 
 
 #kcim {
 	text-align: center;
+}
+
+textarea{
+	width: 300px;
+}
+
+#tnev{
+	width: 300px;
+}
+
+#email{
+	width: 300px;
+}
+
+#phone{
+	width: 300px;
+}
+
+#valassztema{
+	width: 300px;
+}
+
+#kuldes{
+	width: 80px;
+	height: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.7s;
+	border: none;
+}
+
+#kuldes:hover{
+	background-color: black;
+	color: white;
 }
