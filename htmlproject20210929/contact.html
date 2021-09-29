@@ -1,20 +1,35 @@
-<html>
+<html lang="hu">
 	<head>
 		<link rel="stylesheet" href="contact.css">
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        <meta charset="UTF-8">
 	</head>
 	<body>
-		<h1 id="kcim">Kapcsolat</h1>
-		<div>
-			<form>
-				<label for="tnev">Teljes Név: </label><br>
-				<input type="text" id="tnev" name="tnev"><br>
-				<label for="email">Email: </label>
-				<input type="email" id="email" name="email"><br>
-				<label for="tartalom">Kérem írja le a broblémáját vagy kérdését: </label>
+		<h1 id="kcim">Kapcsolat</h1><br> 
+		<div align="center">
+			<form action="">
+				<input type="text" placeholder="Név *" id="tnev" name="tnev" required><br><br>
+				<input type="email" placeholder="Email *" id="email" name="email" required><br><br>
+				<input type="number" placeholder="Telefonszám" id="phone" name="phone"><br><br>
+				<select name="" id="valassztema" required>
+					<option selected disabled>Válasszon egy témát</option>
+					<option value="">Szoftverfejlesztés</option>
+					<option value="">Gépépítés</option>
+					<option value="">Szolgáltatási probléma</option>
+					<option value="">Üzleti kapcsolat</option>
+					<option value="">Egyéb</option>
+				</select><br><br>
 				<textarea id="tartalom" name="tartalom" rows="7" col="200">
 				Írja ide a panaszát, problémáját, kérdését vagy a kapcsolatfelvételének egyéb okát
-				</textarea>
+				</textarea><br><br>
+				<div>
+					<input type="checkbox" id="feltetelek">
+					<label for="feltetelek">Elolvastam és elfogadom az <b>Általános Szerződési Feltételeket</b></label>
+				</div><br><br>
+				<div class="submitform">
+					<input id="kuldes" type="submit" name="submit" value="Küldés">
+				</div><br><br>
 			</form>
 		</div>
-	</body>
-</html
+		
+</html>
