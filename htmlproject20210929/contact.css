@@ -73,3 +73,39 @@ textarea{
 	width: 50%;
 	margin-top: 250px;
 }
+
+#githubicon{
+	width: 30px;
+	height: 30px;
+	margin-right: 9px;
+}
+
+#twitchicon{
+	width: 30px;
+	height: 30px;
+	margin: 9px;
+}
+
+#instaicon{
+	width: 30px;
+	height: 30px;
+	margin: 9px;
+}
+
+#dcicon{
+	width: 30px;
+	height: 30px;
+	margin: 6px;
+}
+
+#faceicon{
+	width: 30px;
+	height: 30px;
+	margin: 6px;
+}
+
+#linkedicon{
+	width: 30px;
+	height: 30px;
+	margin: 9px;
+}
