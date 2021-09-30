@@ -109,3 +109,33 @@ textarea{
 	height: 30px;
 	margin: 9px;
 }
+
+#tnev:hover{
+	width: 320px;
+	height: 28px;
+	transition-duration: 0.3s;
+}
+
+#email:hover{
+	width: 320px;
+	height: 28px;
+	transition-duration: 0.3s;
+}
+
+#phone:hover{
+	width: 320px;
+	height: 28px;
+	transition-duration: 0.3s;
+}
+
+#valassztema:hover{
+	width: 320px;
+	height: 28px;
+	transition-duration: 0.3s;
+}
+
+textarea:hover{
+	width: 310px;
+	height: 140px;
+	transition-duration: 0.3s;
+}
