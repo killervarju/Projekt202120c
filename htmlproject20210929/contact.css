@@ -136,6 +136,26 @@ textarea{
 
 textarea:hover{
 	width: 310px;
+	height: 120px;
+	transition-duration: 0.3s;
+}
+/*
+#telicon{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#helyicon{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+*/
+
+textarea:hover{
+	width: 310px;
 	height: 140px;
 	transition-duration: 0.3s;
 }
