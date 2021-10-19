@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Kapcsolat</title>
+</head>
+<body>
+    <div id="maindiv">   
+        <div id="form_main" align="center">
+            <h1 align="center">Kapcsolat</h1><br> 
+            <form action="">
+                <div class="input_mail">
+                    <input type="email" placeholder="Email *" id="email" name="email" required><br><br>
+                </div>
+                <div>
+                    <select name="" id="valassztema" required>
+                        <option selected disabled>Válasszon egy témát*</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <textarea id="tartalom" name="tartalom" rows="7" col="200"></textarea><br><br>
+                </div>
+                <div>
+                    <input type="checkbox" id="feltetelek" required>
+                    <label for="feltetelek">Elolvastam és elfogadom az <b>Általános Szerződési Feltételeket.</b> * <a href=""><ion-icon id="download_icon" name="cloud-download-outline"></ion-icon></a></label>
+                </div><br><br>
+                <button id="send_btn" onclick="send()" type="button" class="button">
+                    <span class="button__text">Küldés</span>
+                    <span class="button__icon">
+                        <ion-icon name="send"></ion-icon>
+                    </span>
+                  </button>
+                  <button type="button" id="rate">
+                      <span>Értékelj minket!</span>
+                      <span><ion-icon name="star-half-outline"></ion-icon></span>
+                  </button>
+                <!--
+                    <div class="submitform">
+                        <span ><i class="kuldes_icon" ></i></span>
+                        <input id="kuldes" type="submit" name="submit" value="Küldés">
+                     </div><br><br>
+                -->
+            </form>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+</body>
+</html>
+
+<!--https://codepen.io/lucasyem/pen/ZEEYKdj-->
