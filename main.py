@@ -58,13 +58,23 @@ else:
 
 '''
 login_usname = """SELECT username FROM users WHERE username = %s"""
+login_usname_disp.execute(login_usname, (usname, ))
+login_usname_disp_result = login_usname_disp.fetchall() 
+login_pass = """SELECT password FROM users WHERE username = %s"""
+login_pass_disp.execute(login_pass, (usname, ))
+
+
+--------------------------------------------------------------------
+login_usname = """SELECT username FROM users WHERE username = %s"""
 mycursor.execute(login_usname, (usname, )) 
 login_pass = """SELECT password FROM users WHERE username = %s"""
 mycursor.execute(login_pass, (usname, ))
 
+--------------------------------------------------------------------
 login_usname = """SELECT username FROM users WHERE username = '%s'""" % (usname)
 login_pass = """SELECT password FROM users WHERE username = '%s'""" % (usname)
 
+--------------------------------------------------------------------
 login_usname = "SELECT username FROM users WHERE username = '{usname}'" 
 login_pass = "SELECT password FROM users WHERE username = '{usname}'" 
 '''
